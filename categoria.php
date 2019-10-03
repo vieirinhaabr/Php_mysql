@@ -1,6 +1,6 @@
 <?php ob_start(); ?>
 
-<a class="btn-floating btn-large waves-effect waves-light red modal-trigger" href="#modal">
+<a class="btn-floating btn-large waves-effect waves-light blue modal-trigger" href="#modal">
     <i class="material-icons">add</i>
 </a>
 
@@ -8,7 +8,7 @@
   <div id="modal" class="modal">
     <div class="modal-content">
      
-      <form method="post" action="/aulaphp/control/categorias/salvar.php" id="formularioCategoria">
+      <form method="post" action="" id="formularioCategoria">
 
           <input id="codigo" name="codigo" id="codigo" type="hidden">
 
